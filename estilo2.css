@@ -1,0 +1,59 @@
+body{
+    border: 1px solid black;
+    width: 80%; 
+    margin:auto; 
+    
+}
+h1{
+    color: rgb(16, 93, 236);
+    text-align: center;
+    margin: 40px;
+    padding:50px;
+
+}
+li{
+    display: inline-block;
+    background-color: rgb(71, 169, 199);
+    color:rgb(0, 0, 0);
+    width:20%;
+    text-align: center;
+    padding:10px 0;
+}
+ol{
+    background-color: rgb(255, 0, 0);
+    padding: 0;
+
+}
+li:hover{
+    background-color:rgb(140, 113, 216);
+}
+main{
+    padding:0 20px;
+}
+p{
+    text-align: justify;
+
+
+}
+h2{
+    background-color: rgb(63, 209, 190);
+    border: 1px solid black;
+    padding:10px; 
+    width:30%;
+    text-align: center;
+    margin:auto;
+}
+a{
+    text-decoration:none;
+    color:inherit;
+}
+p.volver{
+    background-color: rgb(148, 23, 6);
+    text-align: right;
+    padding-right: 20px;
+    color: azure;
+}
+h2:target{
+    background-color: rgb(207, 10, 42);
+    
+}
