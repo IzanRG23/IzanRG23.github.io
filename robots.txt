@@ -1,1 +1,3 @@
-user-agent:
+user-agent:*
+Allow:/
+Disallow:/privado
