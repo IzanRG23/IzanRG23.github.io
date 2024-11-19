@@ -1,59 +1,119 @@
 body{
-    border: 1px solid black;
-    width: 80%; 
-    margin:auto; 
-    
-}
-h1{
-    color: rgb(16, 93, 236);
-    text-align: center;
-    margin: 40px;
-    padding:50px;
-
-}
-li{
-    display: inline-block;
-    background-color: rgb(71, 169, 199);
-    color:rgb(0, 0, 0);
-    width:20%;
-    text-align: center;
-    padding:10px 0;
+    width: 70%;
+    border: 3px solid black;
+    margin:0 auto;
 }
 ol{
-    background-color: rgb(255, 0, 0);
     padding: 0;
-
+    margin:0 auto;
+}
+h1{
+    margin:0;
+    padding:0 0 0 15px;
+    background-color:rgb(136, 134, 132);
+    text-align: center;
+    color:white;
+}
+h2:target{
+    border:none;
+    background-color:rgb(150, 153, 144);
+}
+li{
+    display:inline-block;
+    background-color: rgb(79, 100, 91);
+    width:16.666%;
+    text-align:center;
+    padding:8px 0;
 }
 li:hover{
-    background-color:rgb(140, 113, 216);
+    background-color: rgb(118, 122, 112);
+    color:white;
+    border-bottom:7px solid rgb(78, 74, 74);
 }
-main{
-    padding:0 20px;
+article{
+    padding: 20px
 }
 p{
     text-align: justify;
-
-
 }
 h2{
-    background-color: rgb(63, 209, 190);
-    border: 1px solid black;
-    padding:10px; 
-    width:30%;
-    text-align: center;
-    margin:auto;
+    border-bottom: 3px dotted rgb(8, 8, 8);
+}
+ol.footer{
+    background-color:black;
+    padding:20px 0;
+    border-bottom: 20px solid grey;
+}
+footer{
+    margin:20px;
 }
 a{
-    text-decoration:none;
+    text-decoration: none;
     color:inherit;
 }
 p.volver{
-    background-color: rgb(148, 23, 6);
+    background-color: rgb(184, 176, 167);
     text-align: right;
-    padding-right: 20px;
-    color: azure;
+    padding:5px 10px;
+    clear:both;
 }
-h2:target{
-    background-color: rgb(207, 10, 42);
- 
+
+li.footer{
+    background-color: rgb(5, 5, 5);
+   width:25%;
+   color:white;
+   outline:1px solid white;
 }
+li.footer:hover{
+    background-color: white;
+    color:black;
+    border:none;
+}
+   img{
+    float:left;
+    width:40%;
+    margin-right:10px;
+   }
+   .img2{
+    float:right;
+    width:50%;
+    margin-left:10px;
+    padding:0 10px 10px 0,
+   }
+   .img3{
+    float:right;
+    width:40%;
+    margin-left:10px;
+    padding:0 10px 10px 0,
+   }
+   .img4{
+    float:left;
+    width:20%;
+    margin-right:10px;
+    padding:0 10px 10px 0,
+   }
+   .img5{
+    float:right;
+    width:40%;
+    margin-left:10px;
+    padding:0 10px 10px 0,
+   }
+   .img6{
+    float:right;
+    width:40%;
+    margin-left:10px;
+    padding:0 10px 10px 0,
+   }
+   blockquote{
+    float:left;
+    margin-right: 15px;
+    width: 30%;
+    font-size:xx-large;
+   }
+   video{
+    width:35%;
+   }
+   div{
+    text-align:center;
+   }
+   
