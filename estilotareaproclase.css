@@ -46,6 +46,7 @@ h2{
     border-bottom: 3px dotted rgb(8, 8, 8);
     color: brown;
     font-family: 'Spicy Rice', sans-serif; 
+    text-align: left;
 }
 ol.footer{
     background-color:rgb(69, 0, 0);
@@ -92,7 +93,7 @@ li.footer:hover{
    }
    .img3{
     float:right;
-    width:40%;
+    width:35%;
     margin-left:10px;
     padding:0 10px 10px 0,
    }
@@ -112,6 +113,18 @@ li.footer:hover{
     float:right;
     width:35%;
     margin-left:10px;
+    padding:0 10px 10px 0,
+   }
+   .img7{
+    float:right;
+    width:25%;
+    margin-left:10px;
+    padding:0 10px 10px 0,
+   }
+   .img8{
+    float:left;
+    width:20%;
+    margin-right:10px;
     padding:0 10px 10px 0,
    }
   
