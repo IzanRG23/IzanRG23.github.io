@@ -1,7 +1,8 @@
 body{
-    width: 70%;
+    width: 80%;
     border: 3px solid black;
     margin:0 auto;
+   
 }
 ol{
     padding: 0;
@@ -10,68 +11,77 @@ ol{
 h1{
     margin:0;
     padding:0 0 0 15px;
-    background-color:rgb(136, 134, 132);
+    font-family: "Merriweather", serif;
+    background-color:rgb(143, 1, 1);
     text-align: center;
     color:white;
 }
 h2:target{
     border:none;
-    background-color:rgb(150, 153, 144);
+    background-color:rgb(234, 115, 18);
 }
 li{
     display:inline-block;
-    background-color: rgb(79, 100, 91);
-    width:16.666%;
+    background-color: rgb(183, 61, 61);
+    width:16.66%;
     text-align:center;
     padding:8px 0;
+    color: white;
+    font-family: 'Merriweather', serif;
+    
 }
 li:hover{
-    background-color: rgb(118, 122, 112);
+    background-color: rgba(210, 115, 14, 0.89);
     color:white;
-    border-bottom:7px solid rgb(78, 74, 74);
+    border-bottom:7px solid rgb(212, 43, 43);
 }
 article{
     padding: 20px
 }
 p{
     text-align: justify;
+    font-family: "Playfair Display", serif;
 }
 h2{
     border-bottom: 3px dotted rgb(8, 8, 8);
+    color: brown;
+    font-family: 'Spicy Rice', sans-serif; 
 }
 ol.footer{
-    background-color:black;
+    background-color:rgb(69, 0, 0);
     padding:20px 0;
-    border-bottom: 20px solid grey;
+    border-bottom: 20px solid rgb(69, 0, 0);
 }
 footer{
-    margin:20px;
+    margin:0px;
 }
 a{
     text-decoration: none;
     color:inherit;
 }
 p.volver{
-    background-color: rgb(184, 176, 167);
+    color:white;
+    background-color: rgb(199, 52, 52);
     text-align: right;
     padding:5px 10px;
     clear:both;
+    font-family: 'Spicy Rice', sans-serif; 
 }
 
 li.footer{
-    background-color: rgb(5, 5, 5);
+    background-color: rgb(255, 255, 255);
    width:25%;
-   color:white;
-   outline:1px solid white;
+   color:rgb(0, 0, 0);
+  
 }
 li.footer:hover{
-    background-color: white;
-    color:black;
+    background-color: rgba(106, 20, 20, 0.856);
+    color:rgb(255, 255, 255);
     border:none;
 }
    img{
     float:left;
-    width:40%;
+    width:35%;
     margin-right:10px;
    }
    .img2{
@@ -100,20 +110,24 @@ li.footer:hover{
    }
    .img6{
     float:right;
-    width:40%;
+    width:35%;
     margin-left:10px;
     padding:0 10px 10px 0,
    }
-   blockquote{
-    float:left;
-    margin-right: 15px;
-    width: 30%;
-    font-size:xx-large;
-   }
+  
    video{
-    width:35%;
+    width:50%;
+    align-items: center;
    }
+   
    div{
     text-align:center;
    }
+   h3{
+    text-decoration: underline wavy red;
+    color: rgb(232, 153, 6);
+   }
+   
+   
+   
    
