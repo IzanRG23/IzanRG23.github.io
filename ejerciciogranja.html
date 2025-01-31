@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio de la granja</title>
+    <style>
+        body{
+            display: flex;
+            justify-content:center;
+            
+        }
+        #corral{
+            border:3px dashed black;
+            width:500px;
+            height:200px;
+            margin:0 auto;
+         
+        }
+        span{
+            width:25px;
+            height:25px;
+            display:block;
+            position:absolute;
+            top:10px;
+            left:10px;
+            border-radius:50%;
+            background-color:red;
+        }
+        #corral div{
+            display:inline-block;
+            border:2px solid black;
+            width:80px;
+            height:80px;
+            margin-left:10px;
+            margin-top:10px;
+        }
+
+           #corral div:nth-child(1){
+            border-color:red;
+           
+        }
+        #corral div:nth-child(2){
+            border-color:blue;
+          
+        }
+        #corral div:nth-child(3){
+            border-color:yellow;
+          
+        }
+        #corral div:nth-child(4){
+            border-color:rgb(60, 255, 0);
+           
+        }
+        #corral div:nth-child(5){
+            border-color:rgb(0, 0, 0);
+           
+        }
+        #corral div:nth-child(1) span{
+        background-color:red;
+        left:50px;
+        }
+        #corral div:nth-child(2) span{
+        background-color:blue;
+        top:30px;
+        }
+        #corral div:nth-child(3) span{
+        background-color:yellow;
+        left:50px;
+        top:20px;
+        }
+        #corral div:nth-child(4) span{
+        background-color:rgb(60, 255, 0);
+        top:45;
+        left:20px;
+        }
+        #corral div:nth-child(5) span{
+        background-color:black;
+        left:30px;
+        }
+        div>div:hover{
+            position:relative;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="corral">
+
+        <div><span>🐑</span></div>
+        <div><span>🐖</span></div>
+        <div><span>🐐</span></div>
+        <div><span>🐎</span></div>
+        <div><span>🐄</span></div>
+</body>
+</html>

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio flex Izan</title>
+    <style>
+        body{
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            align-content: center;
+            height: 850px;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        span{
+           display: block;  
+           width: 90px; 
+           height: 30px;
+        }
+        span:nth-child(odd){
+            background-color: red;
+        }
+        span:nth-child(even){
+            background-color: blue;
+        }
+        
+        div{
+            margin: 0;
+            height: 200px;
+            border: 1px solid black;
+            width: 400px;
+        }
+        div:nth-child(1){
+            display: flex;  
+            justify-content: space-between;
+        }
+        div:nth-child(2){
+            display: flex;  
+            justify-content: space-between;
+            align-items: center;
+        }
+        div:nth-child(3){
+            display: flex;  
+            justify-content: space-between;
+            align-items: flex-end;
+        }
+        div:nth-child(4){
+            display: flex;  
+            justify-content: space-between;
+            align-items: start;
+            flex-wrap: wrap;
+            align-content: space-between;
+        }
+        div:nth-child(5){
+            display: flex;  
+            justify-content: space-between;
+            align-items: stretch;
+            align-content: stretch;
+        }
+        div:nth-child(5) >span{
+            height: initial;
+        }
+        div:nth-child(6){
+            display: flex;  
+            justify-content: space-between;
+            align-items: center;
+        }
+        div:nth-child(7){
+            display: flex;  
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+        }
+        div:nth-child(8){
+            display: flex;  
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            
+            
+        }
+        div:nth-child(8) >span{
+            width: 90px;
+            height: 60px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <span>1</span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+      
+    <div>
+        <span>2</span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+
+    <div>
+        <span>3</span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+
+    <div>
+        <span>4</span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+
+    <div>
+        <span>5</span>
+        <span></span>
+        <span></span>
+    </div>
+
+    <div>
+        <span>6</span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+
+    <div>
+        <span>7</span>
+        <span></span>
+        <span></span>
+    </div>
+
+    <div>
+        <span>8</span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        
+        
+    </div>
+
+
+</body>
+</html>
