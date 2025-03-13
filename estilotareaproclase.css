@@ -1,6 +1,6 @@
 body{
     width: 80%;
-    border: 3px solid black;
+    border: 3px solid rgb(172, 42, 42);
     margin:0 auto;
    
 }
@@ -51,7 +51,7 @@ h2{
 ol.footer{
     background-color:rgb(69, 0, 0);
     padding:20px 0;
-    border-bottom: 20px solid rgb(69, 0, 0);
+    border-bottom: 20px solid rgb(204, 28, 28);
 }
 footer{
     margin:0px;
@@ -89,43 +89,43 @@ li.footer:hover{
     float:right;
     width:50%;
     margin-left:10px;
-    padding:0 10px 10px 0,
+    padding:0 10px 10px 0;
    }
    .img3{
     float:right;
     width:35%;
     margin-left:10px;
-    padding:0 10px 10px 0,
+    padding:0 10px 10px 0;
    }
    .img4{
     float:left;
     width:20%;
     margin-right:10px;
-    padding:0 10px 10px 0,
+    padding:0 10px 10px 0;
    }
    .img5{
     float:right;
     width:40%;
     margin-left:10px;
-    padding:0 10px 10px 0,
+    padding:0 10px 10px 0;
    }
    .img6{
     float:right;
     width:35%;
     margin-left:10px;
-    padding:0 10px 10px 0,
+    padding:0 10px 10px 0;
    }
    .img7{
     float:right;
     width:25%;
     margin-left:10px;
-    padding:0 10px 10px 0,
+    padding:0 10px 10px 0;
    }
    .img8{
     float:left;
     width:20%;
     margin-right:10px;
-    padding:0 10px 10px 0,
+    padding:0 10px 10px 0;
    }
   
    video{
