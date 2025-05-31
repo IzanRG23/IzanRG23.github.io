@@ -15,7 +15,7 @@ body {
     min-height: 100vh;
 }
 
-/* HEADER */
+
 h1 {
     margin: 0;
     padding: 0.5em;
@@ -25,7 +25,7 @@ h1 {
     color: white;
 }
 
-/* ENCABEZADOS */
+
 h2:target {
     background-color: #004080;
 }
@@ -38,11 +38,11 @@ h2 {
 }
 
 h3 {
-    text-decoration: underline wavy #006633;
+    text-decoration: underline wavy #7aefb4;
     color: #006633;
 }
 
-/* NAVEGACIÓN */
+
 nav ol {
     list-style: none;
     padding: 0;
@@ -55,7 +55,7 @@ nav ol {
 }
 
 nav li {
-    background-color: rgb(0, 68, 117);
+    background-color: rgb(132, 181, 214);
     text-align: center;
     padding: 8px 0;
     color: white;
@@ -70,7 +70,7 @@ nav li:hover {
     border-bottom: 7px solid rgb(15, 115, 217);
 }
 
-/* CONTENIDO */
+
 main {
     flex-grow: 1;
     padding: 20px 10px;
@@ -87,7 +87,7 @@ p {
     font-family: "Playfair Display", serif;
 }
 
-/* FOOTER */
+
 footer {
     background-color: rgb(0, 43, 75);
     padding: 20px;
@@ -131,7 +131,7 @@ footer address {
     font-size: 0.9em;
 }
 
-/* ELEMENTOS VISUALES */
+
 img {
     float: left;
     width: 35%;
@@ -155,7 +155,7 @@ video {
     border-radius: 8px;
 }
 
-/* INTERACTIVOS */
+
 [role="button"] {
     cursor: pointer;
     border: none;
@@ -179,7 +179,7 @@ p.volver {
     font-family: 'Spicy Rice', sans-serif;
 }
 
-/* BOTÓN ACCESIBILIDAD */
+
 .skip-to-content {
     position: absolute;
     top: -40px;
