@@ -241,3 +241,22 @@ p.volver {
         width: 100%;
     }
 }
+
+.bandera {
+  text-align: left;
+}
+[role="button"], .volver a {
+  cursor: pointer;
+  border: none;
+  background-color: rgb(0, 68, 117);
+  color: white;
+  padding: 0.5em 1em;
+  font-size: 1em;
+  font-family: 'Merriweather', serif;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+[role="button"]:hover, .volver a:hover {
+  background-color: rgb(48, 153, 236);
+}
